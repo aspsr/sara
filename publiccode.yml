@@ -1,38 +1,43 @@
-publiccodeYmlVersion: "0.2"
-
-name: Tracking PS
-url: "https://github.com/aspsr/sara"
-softwareVersion: "1.0.0"
-
-releaseDate: "2026-01-01"
-developmentStatus: stable
-softwareType: web
-
+publiccodeYmlVersion: 0.5.0
+name: Sara
+url: https://github.com/aspsr/sara.git
+softwareVersion: 1.2.1
+releaseDate: 2025-10-01
+platforms:
+  - web
+categories:
+  - customer-service-and-support
+  - communications
+developmentStatus: beta
+softwareType: standalone/web
 intendedAudience:
   scope:
     - healthcare
-
+    - government
 description:
   it:
-    shortDescription: >
-      S.A.R.A. – Salute Accessibile per le Reti Ambulatoriali ha l’obiettivo di semplificare, velocizzare e rendere più sicura la gestione dei processi clinico-amministrativi.
-    longDescription: >
-      Il progetto S.A.R.A. – Salute Accessibile per le Reti Ambulatoriali ha l’obiettivo di semplificare, velocizzare e rendere più sicura 
-      la gestione dei processi clinico-amministrativi, attraverso l’adozione di un modello organizzativo che valorizza le potenzialità delle tecnologie informatiche.
-      Uno dei principali risultati attesi è la dematerializzazione dei flussi informativi, finalizzata al superamento delle criticità connesse 
-      all’utilizzo esclusivo della documentazione cartacea.
-      L’applicativo consente la registrazione e l’aggiornamento in tempo reale dei dati dei pazienti, delle prenotazioni e delle attività cliniche, 
-      riducendo ridondanze informative, tempi di lavorazione e rischi di errore.
-
-La tracciabilità delle informazioni garantisce un accesso sicuro, profilato e autorizzato ai documenti e ai referti, assicurando un miglioramento complessivo dell’efficienza operativa.
-    documentation: "https://github.com/aspsr/sara"
-
+    shortDescription: " S.A.R.A. – Salute Accessibile per le Reti Ambulatoriali ha
+      l’obiettivo di semplificare la gestione dei processi
+      clinico-amministrativi."
+    longDescription: >-
+      Il progetto S.A.R.A. – Salute Accessibile per le Reti Ambulatoriali ha
+      l’obiettivo di semplificare, velocizzare e rendere più sicura 
+            la gestione dei processi clinico-amministrativi, attraverso l’adozione di un modello organizzativo che valorizza le potenzialità delle tecnologie informatiche.
+            Uno dei principali risultati attesi è la dematerializzazione dei flussi informativi, finalizzata al superamento delle criticità connesse 
+            all’utilizzo esclusivo della documentazione cartacea.
+            L’applicativo consente la registrazione e l’aggiornamento in tempo reale dei dati dei pazienti, delle prenotazioni e delle attività cliniche, 
+            riducendo ridondanze informative, tempi di lavorazione e rischi di errore.
+    features:
+      - Reti ambulatoriali
 legal:
   license: EUPL-1.2
-  repoOwner: "Azienda Sanitaria Provinciale di Siracusa"
-
+  repoOwner: Azienda Sanitaria Provinciale Siracusa
 maintenance:
   type: internal
   contacts:
-    - name: UOC SIFA e CdG
-      email: "sifa@asp.sr.it"
+    - name: Sistemi Informativi e Flussi Aziendali
+      email: sifa@asp.sr.it
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it
