@@ -31,7 +31,9 @@ description:
       - Reti ambulatoriali
 legal:
   license: EUPL-1.2
-  repoOwner: Azienda Sanitaria Provinciale Siracusa
+organisation:  
+  name: Azienda Sanitaria Provinciale Siracusa
+  uri: urn:x-italian-pa:a_sr
 maintenance:
   type: internal
   contacts:
