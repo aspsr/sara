@@ -1,0 +1,45 @@
+publiccodeYmlVersion: 0.5.0
+name: Sara
+url: https://github.com/aspsr/sara.git
+softwareVersion: 1.2.1
+releaseDate: 2025-10-01
+platforms:
+  - web
+categories:
+  - customer-service-and-support
+  - communications
+developmentStatus: beta
+softwareType: standalone/web
+intendedAudience:
+  scope:
+    - healthcare
+    - government
+description:
+  it:
+    shortDescription: " S.A.R.A. – Salute Accessibile per le Reti Ambulatoriali ha
+      l’obiettivo di semplificare la gestione dei processi
+      clinico-amministrativi."
+    longDescription: >-
+      Il progetto S.A.R.A. – Salute Accessibile per le Reti Ambulatoriali ha
+      l’obiettivo di semplificare, velocizzare e rendere più sicura 
+            la gestione dei processi clinico-amministrativi, attraverso l’adozione di un modello organizzativo che valorizza le potenzialità delle tecnologie informatiche.
+            Uno dei principali risultati attesi è la dematerializzazione dei flussi informativi, finalizzata al superamento delle criticità connesse 
+            all’utilizzo esclusivo della documentazione cartacea.
+            L’applicativo consente la registrazione e l’aggiornamento in tempo reale dei dati dei pazienti, delle prenotazioni e delle attività cliniche, 
+            riducendo ridondanze informative, tempi di lavorazione e rischi di errore.
+    features:
+      - Reti ambulatoriali
+legal:
+  license: EUPL-1.2
+organisation:  
+  name: Azienda Sanitaria Provinciale Siracusa
+  uri: urn:x-italian-pa:a_sr
+maintenance:
+  type: internal
+  contacts:
+    - name: Sistemi Informativi e Flussi Aziendali
+      email: sifa@asp.sr.it
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it
